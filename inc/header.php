@@ -25,8 +25,8 @@
 
         <!-- Navigation -->
         <nav class="space-x-4">
-            <a href="index.php" class="inline-block px-4 py-2 text-gray-100 bg-gray-700 rounded-full hover:bg-gray-600 transition duration-300 shadow-xl">Accueil</a>
-            <a href="contact.php" class="inline-block px-4 py-2 text-gray-100 bg-gray-700 rounded-full hover:bg-gray-600 transition duration-300">Contact</a>
+            <a href="index.php" class="inline-block px-4 py-2 text-gray-100 bg-gray-700 rounded-full hover:bg-gray-600 transition duration-300 shadow-xl transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Accueil</a>
+            <a href="contact.php" class="inline-block px-4 py-2 text-gray-100 bg-gray-700 rounded-full hover:bg-gray-600 transition duration-300 transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Contact</a>
         </nav>
     </div>
 </header>
