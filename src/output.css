@@ -20,6 +20,7 @@
   /* 2 */
 }
 
+
 ::before,
 ::after {
   --tw-content: '';
@@ -55,6 +56,9 @@ html,
   -webkit-tap-highlight-color: transparent;
   /* 7 */
 }
+
+
+
 
 /*
 1. Remove the margin in all browsers.
