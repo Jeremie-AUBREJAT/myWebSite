@@ -1,11 +1,11 @@
 <?php include ('inc/header.php');?>
-<body class="font-sans bg-zinc-800" style="background-image: url('chemin/vers/votre/imagebackground2.png'); background-size: cover;">
+<body class="font-sans bg-zinc-800">
 
-    <div style="background-image: url('asset/img/background2.png');" class="lg:m-32 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
+    <div style="background-image: url('asset/img/background2.png');" class="lg:m-32 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         <!-- Section de compétences -->
         
 
-        <section  class="py-16 bg-gray-400 rounded-l-lg bg-opacity-90" >
+        <section  class="py-16 bg-gray-400 rounded-l-lg bg-opacity-95" >
                 <div class="container mx-auto text-center">
                     <h2 class="inline-block px-16 py-2 bg-gray-800 text-white rounded-lg text-2xl font-semibold">J@B WEB</h2>
                     <div class="container mx-auto p-4 sm:p-8 md:p-12 lg:p-16 xl:p-20">
@@ -19,7 +19,7 @@
                 </div>
             </div>
         </section>
-        <section class="py-16 bg-gray-400 rounded-r-lg bg-opacity-90">
+        <section class="py-16 bg-gray-400 rounded-r-lg bg-opacity-95">
     
             <div class=" container mx-auto text-center">
                 <h2 class="inline-block px-4 py-2 bg-gray-800 text-white rounded-lg text-2xl font-semibold">Mes Compétences</h2>
@@ -43,24 +43,24 @@
                     </div>
                     <div class="bg-gray-100 p-5 rounded-lg shadow-2xl">
                         <h3 class="text-lg font-semibold">CMS</h3>
-                        <p>Wordpress</p>
+                        <p>Wordpress</p>                   
                     </div>
-                    <div class="p-5 rounded-lg">
-                    
-                    </div>
+                    <div></div>
                     <div class="p-5 rounded-lg">
                     <img src="asset/img/uxui.png" class="py-14 mx-auto mt-2 rounded-lg" alt="Description de l'image">
                     </div>
                     <div class="p-5 rounded-lg">
                     <img src="asset/img/ordinateur.png" class="py-10 w-64 mx-auto mt-2 rounded-lg" alt="Description de l'image">
-    </div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
+    
         <!-- Section de portfolio -->
-        <section class="bg-gray-400 py-16 mx-10 rounded-t-lg">
+        <section style="background-image: url('asset/img/background2.png');" class=" bg-gray-400 py-16 rounded-lg lg:mx-32">
             <div class="container mx-auto text-center">
-                <h2 class="text-2xl font-semibold">Portfolio</h2>
+                <h2 class="inline-block px-4 py-2 bg-gray-800 text-white rounded-lg text-2xl font-semibold">Portfolio</h2>
                 <!-- projets -->
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
@@ -87,8 +87,7 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <div class="flex justify-center items-center h-2/3 bg-gray-400 mx-10 rounded-b-lg">
+            <div class=" flex justify-center items-center h-2/3 bg-gra-400 lg:m-8 mt-8 rounded-b-lg">
             <div class="bg-gray-100 p-4 rounded-lg shadow-2xl w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/3 text-center mb-8">
                     <h3 class="text-lg font-semibold"><a href="https://github.com/Jeremie-AUBREJAT" target="_blank">Github</a></h3> 
                     <a href="https://github.com/Jeremie-AUBREJAT" target="_blank">
@@ -97,6 +96,8 @@
                     </a>
             </div>
         </div>
+        </section>
+        
         <!-- Section de contact -->
         <section class="py-16">
             <div class="container mx-auto text-center">
