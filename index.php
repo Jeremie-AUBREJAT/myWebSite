@@ -60,8 +60,8 @@
         <!-- Section de portfolio -->
         <section style="background-image: url('asset/img/background2.png');"class=" rounded-lg lg:mx-32 bg-gray-400">
         <div class=" rounded-lg bg-gray-400 bg-opacity-90">
-            <div   class="container text-center">
-                <h2 class="inline-block px-4 py-2 bg-gray-800 text-white rounded-lg text-2xl font-semibold">Portfolio</h2>
+            <div   class="container text-center">       
+                <h2 class="inline-block px-4 py-2 bg-gray-800 text-white rounded-lg text-2xl mt-10 font-semibold">Portfolio</h2>
                 <!-- projets -->
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
@@ -89,15 +89,15 @@
                 </div>
             </div>
             <div class=" flex justify-center items-center h-2/3 lg:m-8 mt-8 rounded-b-lg">
-            <div class="bg-gray-100 p-4 rounded-lg shadow-2xl w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/3 text-center mb-8">
+                <div class="bg-gray-100 p-4 rounded-lg shadow-2xl w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/3 text-center mb-8">
                     <h3 class="text-lg font-semibold"><a href="https://github.com/Jeremie-AUBREJAT" target="_blank">Github</a></h3> 
                     <a href="https://github.com/Jeremie-AUBREJAT" target="_blank">
                     Github
                     <img src="asset/img/github.jpg" class="w-1/4 mx-auto mt-2 rounded-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none shadow-xl" alt="Description de l'image">
                     </a>
-            </div>
+                </div>
+             </div>
         </div>
-</div>
         </section>
         
         <!-- Section de contact -->
