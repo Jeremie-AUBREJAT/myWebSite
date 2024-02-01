@@ -96,7 +96,7 @@
                     <img src="asset/img/github.jpg" class="w-1/4 mx-auto mt-2 rounded-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none shadow-xl" alt="Description de l'image">
                     </a>
                 </div>
-             </div>
+            </div>
         </div>
         </section>
         

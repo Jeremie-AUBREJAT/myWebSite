@@ -14,6 +14,8 @@
 </head>
 
 <header class="bg-gray-900 relative">
+    
+
     <!-- Background image -->
      <!--<div class="absolute inset-0 bg-cover bg-center z-0" style="background-image: url('asset/img/background2.png');"></div>-->
 
