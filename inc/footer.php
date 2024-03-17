@@ -1,23 +1,20 @@
 
 <footer class="bg-gray-900 text-white py-8">
-    
-    <div class="container mx-auto flex items-center justify-between">
-    
+    <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between">
 
-        <!-- Mentions Légales -->
-        <div>
-            <button><a href="#" class="inline-block px-4 py-2 text-gray-100 bg-gray-700 rounded-full hover:bg-gray-600 transition duration-300 shadow-xl transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Mentions Légales</a></button>
+        <div class="mb-4 lg:mb-0">
+            <button>
+                <a href="mentionslegales.php" class="font-semibold inline-block ml-4 px-4 py-2 text-gray-100 border border-gray-200 bg-gray-600 rounded-xl hover:bg-gray-500 transition duration-300 shadow-xl transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Mentions Légales</a>
+            </button>
         </div>
 
-        <!-- Copyright -->
-        <div>
-            &copy; 2024 J@B WEB. Tous droits réservés.
+        <div class="flex flex-col items-center lg:flex-row lg:items-center lg:space-x-4">
+            <img src="asset/img/logo2.png" class="w-20 mb-4 lg:mb-0 lg:mr-4" alt="Logo de J@B WEB">
+            <div>&copy; 2024 J@B WEB. Tous droits réservés.</div>
         </div>
 
-        <!-- Back to Top Button -->
         <div>
-            <!-- Corrected class to match selector in JavaScript -->
-            <button class="scroll-to-top-button bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-full focus:outline-none transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+            <button id="scroll-to-top-button" class="font-semibold inline-block mr-4 px-4 py-2 text-gray-100 border border-gray-200 bg-gray-600 rounded-xl hover:bg-gray-500 transition duration-300 shadow-xl transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
                 Haut de page
             </button>
         </div>

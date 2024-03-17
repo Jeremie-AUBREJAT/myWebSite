@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Récupération du bouton "Haut de page"
-    var scrollToTopButton = document.querySelector(".scroll-to-top-button");
+    var scrollToTopButton = document.querySelector("#scroll-to-top-button");
 
     // Ajout d'un événement de clic sur le bouton
     scrollToTopButton.addEventListener("click", function() {
@@ -39,3 +39,5 @@ hideDivsOnSmallScreens();
 
 // Attach the function to the window resize event
 window.addEventListener('resize', hideDivsOnSmallScreens);
+
+
