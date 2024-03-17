@@ -7,7 +7,7 @@
     }
   }
   
-  #moveright {
+  .moveRight {
     animation: slideRight 0.5s ease forwards; /* Ajustez la durée et le timing selon vos besoins */
   }
   
@@ -20,6 +20,7 @@
     }
   }
   
-#animate-slideLeft {
+  .moveLeft {
   animation: slideLeft 0.5s ease forwards; /* Ajustez la durée et le timing selon vos besoins */
   }
+  
