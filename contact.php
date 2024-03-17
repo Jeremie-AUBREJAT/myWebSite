@@ -3,7 +3,7 @@
 <?php include ('inc/head.php');?>
 <body class="bg-gray-200">
 <?php include ('inc/header.php');?>
-<div class="container mx-auto my-8 p-8 bg-gray-300 shadow-md rounded-md">
+<div id="contact" class="container mx-auto my-8 p-8 bg-gray-300 shadow-md rounded-md">
     <h2 class="text-2xl font-semibold mb-4">Contactez-nous</h2>
     <form id="contactForm" onsubmit="return validateForm()" class="space-y-4">
         <div class="flex flex-col">

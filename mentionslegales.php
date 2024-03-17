@@ -2,7 +2,7 @@
 
 <body class="bg-gray-100">
 <?php include ('inc/header.php');?>
-    <div class="lg:mx-40 bg-gray-300 p-8 my-8 rounded-2xl shadow-2xl">
+    <div id="mentions" class="lg:mx-40 bg-gray-300 p-8 my-8 rounded-2xl shadow-2xl">
 
 <h1 class="text-3xl font-bold mb-6">Mentions Légales</h1>
 

@@ -48,6 +48,56 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+//suite
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Fonction pour vérifier si au moins une partie de l'élément est visible à l'écran
+    function isElementPartiallyInViewport(el) {
+      if (!el) return false; // Vérifier si l'élément existe
+      var rect = el.getBoundingClientRect();
+      var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+      var windowWidth = window.innerWidth || document.documentElement.clientWidth;
+  
+      return (
+        rect.top <= windowHeight &&
+        rect.bottom >= 0 &&
+        rect.left <= windowWidth &&
+        rect.right >= 0
+      );
+    }
+
+    // Élément à surveiller
+    var elementToWatch = document.getElementById('Right2');
+    var elementToWatch2 = document.getElementById('Left2');
+
+
+    // Ajouter la classe "moveRight" et supprimer la classe "invisible" dès que l'élément devient partiellement visible
+    if (isElementPartiallyInViewport(elementToWatch)) {
+      elementToWatch.classList.add('moveRight');
+      elementToWatch.classList.remove('invisible');
+      elementToWatch2.classList.add('moveLeft');
+      elementToWatch2.classList.remove('invisible');
+
+    }
+
+    // Écouteur d'événement pour vérifier lorsque l'élément devient partiellement visible lors du défilement
+    window.addEventListener('scroll', function() {
+      if (isElementPartiallyInViewport(elementToWatch)) {
+        elementToWatch.classList.add('moveRight');
+        elementToWatch.classList.remove('invisible');
+        elementToWatch2.classList.add('moveLeft');
+        elementToWatch2.classList.remove('invisible');
+      }
+    });
+
+    // Écouteur d'événement pour vérifier lorsque la fenêtre est redimensionnée
+    window.addEventListener('resize', function() {
+      if (isElementPartiallyInViewport(elementToWatch)) {
+        elementToWatch.classList.add('moveRight');
+        elementToWatch.classList.remove('invisible');
+      }
+    });
+});
 
 
 

@@ -19,8 +19,8 @@
         <!-- Navigation -->
         <nav class="space-x-4">
             <a href="index.php" class="font-semibold inline-block px-4 py-2 text-gray-100 border border-gray-200 bg-gray-600 rounded-xl hover:bg-gray-500 transition duration-300 shadow-xl transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Accueil</a>
-            <a href="contact.php" class="font-semibold inline-block px-4 py-2 text-gray-100 border border-gray-200 bg-gray-600 rounded-xl hover:bg-gray-500 transition duration-300 transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Contact</a>
-            <a href="#porfolio" class="font-semibold inline-block px-4 py-2 text-gray-100 border border-gray-200 bg-gray-600 rounded-xl hover:bg-gray-500 transition duration-300 transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Porfolio</a>
+            <a href="contact.php#contact" class="font-semibold inline-block px-4 py-2 text-gray-100 border border-gray-200 bg-gray-600 rounded-xl hover:bg-gray-500 transition duration-300 transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Contact</a>
+            <a href="index.php#porfolio" class="font-semibold inline-block px-4 py-2 text-gray-100 border border-gray-200 bg-gray-600 rounded-xl hover:bg-gray-500 transition duration-300 transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Porfolio</a>
         </nav>
     </div>
 </header>

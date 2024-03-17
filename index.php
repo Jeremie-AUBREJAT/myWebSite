@@ -67,7 +67,7 @@
                 <!-- projets -->
         
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 mt-8">
-                    <div class="bg-gray-100 p-4 rounded-lg shadow-2xl ml-8">
+                    <div id="Right2" class="bg-gray-100 p-4 rounded-lg shadow-2xl ml-8 invisible">
                         <h3 class="text-lg font-semibold"><a href="http://localhost/ateliee/" target="_blank">atliee.fr</a></h3> 
                         <a href="http://localhost/atliee/" target="_blank">atliee.fr
                             <img src="asset/img/atliee.png" class="w-1/4 mx-auto rounded-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none shadow-xl" alt="Description de l'image">
@@ -81,7 +81,7 @@
                         </a>
                         <p>site vitrine "Bar à bières, vins et spiritueux"</p>
                     </div>
-                    <div class="bg-gray-100 p-4 rounded-lg shadow-2xl mr-8">
+                    <div id="Left2" class="bg-gray-100 p-4 rounded-lg shadow-2xl mr-8 invisible">
                         <h3 class="text-2xl font-semibold my-8">Vôtre Projet</h3>
                         <p>Le site Web dont vous avez toujours rêvé</p>
                     </div>
