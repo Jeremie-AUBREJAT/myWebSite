@@ -2,7 +2,9 @@
 function isSmartphone() {
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   }
-  
+  document.addEventListener('DOMContentLoaded', function() {
+    updateElementVisibility(elementToWatch, elementToWatch2);
+  });
   // Vérifier si le périphérique n'est pas un smartphone avant d'exécuter le code
   if (!isSmartphone()) {
     document.addEventListener('DOMContentLoaded', function() {
