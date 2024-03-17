@@ -2,12 +2,12 @@
 <body class="font-sans">
 <?php include ('inc/header.php');?>
 
-    <div style="background-image: url('asset/img/background3.png');" class="rounded-l-2xl lg:m-32 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+    <div style="background-image: url('asset/img/background3.png');" class="rounded-2xl lg:m-32 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         <!-- Section de compétences -->
         
 
-        <section class="py-16 bg-gray-400 rounded-l-2xl bg-opacity-95" >
-                <div id="Right" class="container mx-auto text-center invisible">
+        <section class="py-16 bg-gray-400 xl:rounded-l-2xl bg-opacity-95" >
+                <div id="Right" class="container mx-auto text-center lg:invisible">
          
                     <h2 class="inline-block px-16 py-2 bg-gray-800 text-white rounded-lg text-2xl font-semibold">J@B WEB</h2>
                     <div class="container mx-auto p-4 sm:p-8 md:p-12 lg:p-16 xl:p-20">
@@ -21,9 +21,9 @@
                 </div>
             </div>
         </section>
-        <section class="py-16 bg-gray-400 rounded-r-2xl bg-opacity-95">
+        <section class="py-16 bg-gray-400 xl:rounded-r-2xl bg-opacity-95">
     
-            <div id="Left" class=" container mx-auto text-center invisible">
+            <div id="Left" class=" container mx-auto text-center lg:invisible">
                 <h2 class="inline-block px-4 py-2 bg-gray-800 text-white rounded-lg text-2xl font-semibold">Mes Compétences</h2>
                 <div class="py-12 mx-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-8">
                     <!-- compétences -->
@@ -48,10 +48,10 @@
                         <p>Wordpress</p>                   
                     </div>
                     <div></div>
-                    <div class="p-5 rounded-lg">
+                    <div class="smartphone p-5 rounded-lg">
                     <img src="asset/img/uxui.png" class="py-14 mx-auto mt-2 rounded-lg" alt="Description de l'image">
                     </div>
-                    <div class="p-5 rounded-lg">
+                    <div class="smartphone p-5 rounded-lg">
                     <img src="asset/img/ordinateur.png" class="py-10 w-64 mx-auto mt-2 rounded-lg" alt="Description de l'image">
                     </div>
                 </div>
@@ -61,13 +61,13 @@
         
         <!-- Section de portfolio -->
         <section id="porfolio" style="background-image: url('asset/img/background3.png');" class="rounded-2xl lg:mx-32">
-        <div class=" rounded-2xl bg-gray-400 bg-opacity-95">
+        <div class=" xl:rounded-2xl bg-gray-400 bg-opacity-95">
             <div class="container text-center mx-auto">       
                 <h2 class="inline-block px-4 py-2 bg-gray-800 text-white rounded-lg text-2xl mt-10 font-semibold">Portfolio</h2>
                 <!-- projets -->
         
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 mt-8">
-                    <div id="Right2" class="bg-gray-100 p-4 rounded-lg shadow-2xl ml-8 invisible">
+                    <div id="Right2" class="bg-gray-100 p-4 rounded-lg shadow-2xl ml-8 lg:invisible">
                         <h3 class="text-lg font-semibold"><a href="http://localhost/ateliee/" target="_blank">atliee.fr</a></h3> 
                         <a href="http://localhost/atliee/" target="_blank">atliee.fr
                             <img src="asset/img/atliee.png" class="w-1/4 mx-auto rounded-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none shadow-xl" alt="Description de l'image">
@@ -81,7 +81,7 @@
                         </a>
                         <p>site vitrine "Bar à bières, vins et spiritueux"</p>
                     </div>
-                    <div id="Left2" class="bg-gray-100 p-4 rounded-lg shadow-2xl mr-8 invisible">
+                    <div id="Left2" class="bg-gray-100 p-4 rounded-lg shadow-2xl mr-8 lg:invisible">
                         <h3 class="text-2xl font-semibold my-8">Vôtre Projet</h3>
                         <p>Le site Web dont vous avez toujours rêvé</p>
                     </div>
@@ -104,7 +104,7 @@
         <!-- Section de contact -->
         <div class="py-16">
             <div class="container mx-auto text-center">
-            <div><a href="contact.php" class="font-semibold inline-block px-4 py-2 border border-gray-700 text-black bg-gray-400 rounded-xl hover:bg-gray-300 transition duration-300 shadow-xl transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Contactez-moi</a></div>
+            <div><a href="contact.php#contact" class="font-semibold inline-block px-4 py-2 border border-gray-700 text-black bg-gray-400 rounded-xl hover:bg-gray-300 transition duration-300 shadow-xl transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Contactez-moi</a></div>
                 <p class="mt-4">Prêt à démarrer un projet ensemble ?</p>
                 <!-- Ajoutez ici un formulaire de contact ou vos informations de contact -->
             </div>
