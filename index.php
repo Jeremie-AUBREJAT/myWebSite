@@ -1,5 +1,5 @@
 <?php include ('inc/head.php');?>
-<body class="font-sans">
+<body class="font-sans bg-gray-200">
 <?php include ('inc/header.php');?>
 
     <div style="background-image: url('asset/img/background3.png');" class="rounded-2xl lg:m-32 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
@@ -7,7 +7,7 @@
         
 
         <section class="py-16 bg-gray-400 xl:rounded-l-2xl bg-opacity-95" >
-                <div id="Right" class="container mx-auto text-center lg:invisible">
+                <div id="Right" class="container mx-auto text-center">
          
                     <h2 class="inline-block px-16 py-2 bg-gray-800 text-white rounded-lg text-2xl font-semibold">J@B WEB</h2>
                     <div class="container mx-auto p-4 sm:p-8 md:p-12 lg:p-16 xl:p-20">
@@ -23,29 +23,49 @@
         </section>
         <section class="py-16 bg-gray-400 xl:rounded-r-2xl bg-opacity-95">
     
-            <div id="Left" class=" container mx-auto text-center lg:invisible">
+
+        <!--Test CSS -->
+        
+            <div id="Left" class=" container mx-auto text-center">
                 <h2 class="inline-block px-4 py-2 bg-gray-800 text-white rounded-lg text-2xl font-semibold">Mes Compétences</h2>
                 <div class="py-12 mx-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-8">
                     <!-- compétences -->
                     <div class="bg-gray-100 p-5 rounded-lg shadow-2xl">
                         <h3 class="text-lg font-semibold">Développement Frontend</h3>
                         <p>HTML, CSS, JavaScript, React</p>
+                        <div class="w-full bg-gray-200 rounded">
+                            <div class="mt-2 h-3 w-52 bg-green-500 rounded"></div>
+                        </div>
+
                     </div>
                     <div class="bg-gray-100 p-5 rounded-lg shadow-ml">
                         <h3 class="text-lg font-semibold">Développement Backend</h3>
                         <p>PHP, SQL, NO SQL, LARAVEL</p>
+                        <div class="w-full bg-gray-200 rounded">
+                            <div class="mt-2 h-3 w-40 bg-yellow-600 rounded"></div>
+                        </div>
+
                     </div>
                     <div class="bg-gray-100 p-5 rounded-lg shadow-2xl">
                         <h3 class="text-lg font-semibold">Design Web</h3>
                         <p>UI/UX, Figma</p>
+                        <div class="w-full bg-gray-200 rounded">
+                            <div class="mt-2 h-3 w-48 bg-green-500 rounded"></div>
+                        </div>
                     </div>
                     <div class="bg-gray-100 p-5 rounded-lg shadow-ml">
                         <h3 class="text-lg font-semibold">Responsive Design</h3>
                         <p>CSS Flexbox, Grid, TAILWIND</p>
+                        <div class="w-full bg-gray-200 rounded">
+                            <div class="mt-2 h-3 w-52 bg-green-500 rounded"></div>
+                        </div>
                     </div>
                     <div class="bg-gray-100 p-5 rounded-lg shadow-2xl">
                         <h3 class="text-lg font-semibold">CMS</h3>
-                        <p>Wordpress</p>                   
+                        <p>Wordpress</p> 
+                        <div class="mt-2 w-full bg-gray-200 rounded">
+                            <div class="h-3 w-52 bg-green-500 rounded"></div>
+                        </div>                  
                     </div>
                     <div></div>
                     <div class="smartphone p-5 rounded-lg">
@@ -67,7 +87,7 @@
                 <!-- projets -->
         
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 mt-8">
-                    <div id="Right2" class="bg-gray-100 p-4 rounded-lg shadow-2xl ml-8 lg:invisible">
+                    <div id="Right2" class="bg-gray-100 p-4 rounded-lg shadow-2xl ml-8">
                         <h3 class="text-lg font-semibold"><a href="http://localhost/ateliee/" target="_blank">atliee.fr</a></h3> 
                         <a href="http://localhost/atliee/" target="_blank">atliee.fr
                             <img src="asset/img/atliee.png" class="w-1/4 mx-auto rounded-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none shadow-xl" alt="Description de l'image">
@@ -81,7 +101,7 @@
                         </a>
                         <p>site vitrine "Bar à bières, vins et spiritueux"</p>
                     </div>
-                    <div id="Left2" class="bg-gray-100 p-4 rounded-lg shadow-2xl mr-8 lg:invisible">
+                    <div id="Left2" class="bg-gray-100 p-4 rounded-lg shadow-2xl mr-8">
                         <h3 class="text-2xl font-semibold my-8">Vôtre Projet</h3>
                         <p>Le site Web dont vous avez toujours rêvé</p>
                     </div>
