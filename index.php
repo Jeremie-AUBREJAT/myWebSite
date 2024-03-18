@@ -34,7 +34,7 @@
                         <h3 class="text-lg font-semibold">Développement Frontend</h3>
                         <p>HTML, CSS, JavaScript, React</p>
                         <div class="w-full bg-gray-200 rounded">
-                            <div class="mt-2 h-3 w-52 bg-green-500 rounded"></div>
+                            <div class="mt-2 h-3 w-11/12 bg-green-500 rounded"></div>
                         </div>
 
                     </div>
@@ -42,7 +42,7 @@
                         <h3 class="text-lg font-semibold">Développement Backend</h3>
                         <p>PHP, SQL, NO SQL, LARAVEL</p>
                         <div class="w-full bg-gray-200 rounded">
-                            <div class="mt-2 h-3 w-40 bg-yellow-600 rounded"></div>
+                            <div class="mt-2 h-3 w-3/5 bg-blue-400 rounded"></div>
                         </div>
 
                     </div>
@@ -50,21 +50,21 @@
                         <h3 class="text-lg font-semibold">Design Web</h3>
                         <p>UI/UX, Figma</p>
                         <div class="w-full bg-gray-200 rounded">
-                            <div class="mt-2 h-3 w-48 bg-green-500 rounded"></div>
+                            <div class="mt-2 h-3 w-5/6 bg-green-500 rounded"></div>
                         </div>
                     </div>
                     <div class="bg-gray-100 p-5 rounded-lg shadow-ml">
                         <h3 class="text-lg font-semibold">Responsive Design</h3>
                         <p>CSS Flexbox, Grid, TAILWIND</p>
                         <div class="w-full bg-gray-200 rounded">
-                            <div class="mt-2 h-3 w-52 bg-green-500 rounded"></div>
+                            <div class="mt-2 h-3 w-5/6 bg-green-500 rounded"></div>
                         </div>
                     </div>
                     <div class="bg-gray-100 p-5 rounded-lg shadow-2xl">
                         <h3 class="text-lg font-semibold">CMS</h3>
                         <p>Wordpress</p> 
                         <div class="mt-2 w-full bg-gray-200 rounded">
-                            <div class="h-3 w-52 bg-green-500 rounded"></div>
+                            <div class="h-3 w-5/6 bg-green-500 rounded"></div>
                         </div>                  
                     </div>
                     <div></div>
@@ -88,8 +88,8 @@
         
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 mt-8">
                     <div id="Right2" class="bg-gray-100 p-4 rounded-lg shadow-2xl ml-8">
-                        <h3 class="text-lg font-semibold"><a href="http://localhost/ateliee/" target="_blank">atliee.fr</a></h3> 
-                        <a href="http://localhost/atliee/" target="_blank">atliee.fr
+                        <h3 class="text-lg font-semibold"><a href=" https://jeremie.dwwm2324.fr" target="_blank">atliee.fr</a></h3> 
+                        <a href=" https://jeremie.dwwm2324.fr" target="_blank">atliee.fr
                             <img src="asset/img/atliee.png" class="w-1/4 mx-auto rounded-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none shadow-xl" alt="Description de l'image">
                         </a>
                         <p>site vitrine "Création d' objets de décoration"</p>
